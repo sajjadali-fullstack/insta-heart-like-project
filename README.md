@@ -14,7 +14,7 @@ A simple Instagram-like post card with a like button and double-click heart anim
 - JavaScript
 
 ## Screenshot
-![Screenshot](egg.png)
+![Screenshot]()
 
 ## Author
 Made by **Sajjad Ali** · [GitHub](https://[https://github.com/sajjadali-fullstack]]
