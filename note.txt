@@ -1,0 +1,84 @@
+Topic will use in this project
+CSS
+----
+1. Box Model
+2. Flexbox
+3. Border Radius
+4. Box Shadow
+5. Position
+6. Transition
+7. Responsive Design
+8. Curser Pointer
+
+JS
+---
+
+1. DOM Selection
+2. Event Listeners
+3. Local Storage
+4. DOM Manipulation
+5. Conditionals
+6. Template / Formatting Function
+7. SetTimeout
+8. String/Number Conversion
+9. Pointer Events Handling
+
+
+
+# 👋 Hi, I'm Sajjad Ali
+**Full Stack Python Developer | Django | Flask | React | HTML/CSS/JS**
+
+---
+
+## 🛠 Skills & Tools
+
+**Backend:** Python, Django, Flask, Django REST Framework  
+**Frontend:** HTML, CSS, JavaScript, React  
+**Database:** SQLite, PostgreSQL, MySQL  
+**Other Tools:** Git, GitHub, Docker, VS Code, Postman  
+**Deployment:** Heroku, Railway, Vercel  
+
+---
+
+## 🚀 Projects
+
+### 1️⃣ Insta-like Post Card (HTML/CSS/JS)
+- **Description:** A mini Instagram post clone. Features:
+  - Toggle heart like (white ↔ red)  
+  - Like count persistence using `localStorage`  
+  - Double-click heart animation  
+  - Fully responsive design
+- **Tech Stack:** HTML, CSS, JavaScript
+- **Live Demo:** [Add your link here](#)
+- **Repo:** [GitHub Link](#)
+
+### 2️⃣ Billing Software
+- **Description:** Desktop/web application for generating invoices and tracking billing.
+- **Tech Stack:** Django, SQLite, HTML, CSS
+- **Live Demo:** [Add your link here](#)
+- **Repo:** [GitHub Link](#)
+
+### 3️⃣ Bank Management System
+- **Description:** CRUD operations for bank accounts with secure login.
+- **Tech Stack:** Python, Flask, SQLite
+- **Live Demo:** [Add your link here](#)
+- **Repo:** [GitHub Link](#)
+
+---
+
+## 🌐 Contact & Socials
+- **GitHub:** [github.com/sajjadali-fullstack](https://github.com/sajjadali-fullstack)  
+- **LinkedIn:** [Add your link]  
+- **Portfolio:** [Add your portfolio link]  
+
+---
+
+## 💡 Notes / Learning Goals
+- Improve backend skills with Django REST Framework  
+- Build full-stack apps with user authentication  
+- Learn deployment and CI/CD with GitHub Actions  
+
+---
+
+
+

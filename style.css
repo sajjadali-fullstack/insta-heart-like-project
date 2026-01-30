@@ -1,0 +1,130 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background:#f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Insta-Card */
+.insta-card{
+    max-width: 360px;
+    width: 100%;
+    background:#fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    position: relative;
+}
+
+/* Insta-Card > IMG */
+.insta-card > img{
+    width: 100%;
+    
+    display: block;
+    overflow: hidden;
+
+}
+
+/* Big heart */
+#big-heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0);
+    font-size: 80px;
+    opacity:0;
+    transition:all .4s ease;
+    pointer-events:none;
+
+}
+
+/* Content */
+.content{
+    padding:15px;
+}
+
+.content h3{
+    margin:0 0 6px;
+}
+
+.content p{
+    margin:0;
+    font-size:14px;
+    color:#555;
+}
+
+/* Footer */
+.footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 15px;
+    border-top:1px solid #eee;
+    font-size:14px;
+}
+
+/* Like button */
+#likeBtn{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    cursor:pointer;
+}
+
+#likeBtn i{
+    color:#999;
+    font-size:18px;
+    transition:.3s;
+}
+
+#likeBtn.liked i{
+    color:red;
+}
+
+
+/* Credit */
+.credit{
+    text-align:center;
+    padding:10px;
+    font-size:13px;
+    color:#666;
+    font-weight: 600;
+}
+
+.credit #made-by:hover{
+    color:rgb(12, 12, 12);
+    
+}
+
+.credit a{
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
+.credit a:hover{
+    color: rgb(32, 192, 32);
+    
+    text-decoration:underline;
+}
+
+.credit #author:hover{
+    color:rgb(39, 36, 209);
+    
+}   
