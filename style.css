@@ -23,7 +23,7 @@ body {
 }
 
 /* Insta-Card */
-.insta-card{
+#card{
     max-width: 360px;
     width: 100%;
     background:#fff;
@@ -31,73 +31,28 @@ body {
     overflow: hidden;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
     position: relative;
+    overflow: hidden;
 }
 
 /* Insta-Card > IMG */
-.insta-card > img{
+#card > img{
     width: 100%;
-    
     display: block;
-    overflow: hidden;
+    object-position: center;
 
-}
+} 
 
-/* Big heart */
-#big-heart{
+#card > i {
+    color: #fff;
+    /* color: red; */
+    font-size: 75px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%,-50%) scale(0);
-    font-size: 80px;
-    opacity:0;
-    transition:all .4s ease;
-    pointer-events:none;
-
+    transform: translate(-50%, -50%)scale(0);
+    opacity: 0;
+    transition: transform ease 0.3s;
 }
-
-/* Content */
-.content{
-    padding:15px;
-}
-
-.content h3{
-    margin:0 0 6px;
-}
-
-.content p{
-    margin:0;
-    font-size:14px;
-    color:#555;
-}
-
-/* Footer */
-.footer{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 15px;
-    border-top:1px solid #eee;
-    font-size:14px;
-}
-
-/* Like button */
-#likeBtn{
-    display:flex;
-    align-items:center;
-    gap:6px;
-    cursor:pointer;
-}
-
-#likeBtn i{
-    color:#999;
-    font-size:18px;
-    transition:.3s;
-}
-
-#likeBtn.liked i{
-    color:red;
-}
-
 
 /* Credit */
 .credit{
